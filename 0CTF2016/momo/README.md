@@ -6,16 +6,27 @@
 
 ```assembly
 EAX  0x30
+
 EBX  0xf7ffd000 (_GLOBAL_OFFSET_TABLE_) ◂— xor    al, 0x6f /* 0x26f34 */
+
 ECX  0x0
+
 EDX  0x9
+
 ...........
+
 ...........
+
 0x804a7ab    mov    eax, dword ptr [0x8055740]
+
 0x804a7b0    mov    edx, dword ptr [0x805574c]
+
 0x804a7b6    mov    dword ptr [0x85fe870], 0xcc00008e
+
 0x804a7c0    mov    dword ptr [0x81fe6e0], eax
+
 0x804a7c5    mov    dword ptr [0x81fe6e4], edx
+
 0x804a7cb    mov    dword ptr [0x85fe870], 0xcc00008f
 ```
 
